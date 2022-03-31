@@ -1,0 +1,48 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.calc-container {
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  box-shadow: 2px 5px 5px rgba(199, 199, 199, 0.384);
+  padding: 50px;
+}
+
+input {
+  margin: 4px;
+  height: 2em;
+  border: none;
+  background: rgb(241, 241, 241);
+  border-radius: 5px;
+}
+
+
+button {
+  margin-left: 25%;
+  background: transparent;
+
+  padding: 12px;
+  background: beige;
+  border: 1px solid beige;
+  border-radius: 4px;
+
+  color: rgb(0, 0, 0);
+  font: normal 600 18px 'Poppins';
+}
+
+button:hover{
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
