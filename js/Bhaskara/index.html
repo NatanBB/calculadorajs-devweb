@@ -4,27 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
 <body>
   <div class="calc-container">
-    <div>
-      <h3>Calculadora <br> Bhaskara</h3>
-      <form id="formulario">
-        <input type="number" id="a" placeholder="Valor de A"><br>
-        <input type="number" id="b" placeholder="Valor de B"><br>
-        <input type="number" id="c" placeholder="Valor de C"><br>
-        <br>
-      </form>
-      <button class="calcular" onclick="Calcular()">CALCULAR</button>
+    <div class="calc-wrap">
+      <div class="form-container">
+        <h3>Calculadora Bhaskara</h3>
+        <form id="formulario">
+          <input type="number" id="a" placeholder="Valor de A"><br>
+          <input type="number" id="b" placeholder="Valor de B"><br>
+          <input type="number" id="c" placeholder="Valor de C"><br>
+          <br>
+        </form>
+        <button class="calcular" onclick="Calcular()">CALCULAR</button>
+      </div>
+      <section id="text" class="section-container">
+      </section>
     </div>
-    <section>
-      <p id="textDelta">Valor de delta: <a id="deltaValue"></a></p>
-      <p>Valor de x1: <a id="x1Value"></a></p>
-      <p>Valor de x2: <a id="x2Value"></a></p>
-    </section>
-    <script src="./bhaskara.js"></script>
   </div>
+  <script src="./bhaskara.js"></script>
 </body>
 </html>
